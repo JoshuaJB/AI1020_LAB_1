@@ -1,7 +1,7 @@
 
 # Lab 1: Terminal and Vim Basics
 
-Welcome to your first computer science lab! Today you'll learn to navigate the command line and use basic text editing tools. By the end, you'll have assembled a program that creates a 3D animated molecule - and it will congratulate you personally!
+Welcome to your AI1020 lab! Today you'll learn to navigate the command line and use basic text editing tools. By the end, you'll have assembled a program that creates a 3D animated molecule - and it will congratulate you personally!
 
 **What you'll learn:**
 - Basic terminal navigation

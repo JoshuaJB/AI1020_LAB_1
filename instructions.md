@@ -60,11 +60,12 @@ Welcome to your AI1020 lab! Today you'll learn to navigate the command line and 
 - Exit this file: Type `:q` and press Enter
 
 <details>
-  <summary>Advanced vim shortcuts</summary>
+  <summary>[Click this text for advanced vim shortcuts.]</summary>
 To avoid using the arrow keys after opening the file:
-  * Type: `gg` (this goes to the top of the file)
-  * Type: `VG` (capital V, then capital G - this selects everything)
-  * Type: `y` (this copies the selected text)
+
+* Type: `gg` (this goes to the top of the file)
+* Type: `VG` (capital V, then capital G - this selects everything)
+* Type: `y` (this copies the selected text)
 </details>
 
 ### Step 7: Create your final program file
@@ -173,7 +174,18 @@ To avoid using the arrow keys after opening the file:
 
 **Congratulations!** You've practiced terminal navigation, vim basics, grep searching, and file copying!
 
-## Bonus Challenge (Optional)
+## PART 4: Submission
+Your final program, when run, will print an alphanumeric "submission ID".
+Login to [Moodle](https://lms.mbzuai.ac.ae) open the lecture section of AI 1020 (__not__ the lab section), open the "Lab 1 Submission" assignment at the bottom of the home page, and paste in the submission ID from your program.
+
+Had trouble finishing the lab?
+This page will remain up, and you can submit until the end of today.
+Still having trouble? Don't worry!
+Come by office hours, and we can help you.
+We want to make sure everyone is able to complete this lab---you'll need these skills for Assignment 1.
+(This lab is zero credit, but may be factored into your participation grade.)
+
+## PART 5: Bonus Challenge (Optional)
 
 Using only the shortcuts and tools practiced in this lab, how could you assemble `final.c` in the command line with as little typing as possible (_i.e._, fewer commands, and/or less characters in each command)?
 

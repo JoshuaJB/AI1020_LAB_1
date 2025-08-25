@@ -16,6 +16,12 @@ Welcome to your AI1020 lab! Today you'll learn to navigate the command line and 
 
 ---
 
+## PART 0: Download Assignment
+
+- Type: `ssh ai1020.mbzu.ae` and enter the password you set when prompted (remember, no characters will appear).
+- Type:`git clone https://github.com/JoshuaJB/AI1020_LAB_1.git` to download the lab code using git.
+- Type: `cd AI1020_LAB_1` to move to the location with the downloaded code.
+
 ## PART 1: Navigation Basics (part1/ folder)
 
 **Commands you'll learn:**

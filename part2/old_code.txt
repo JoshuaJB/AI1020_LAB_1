@@ -1,0 +1,5 @@
+// Code cut from elsewhere, not using/broken!
+
+int pattern[6][7] = {
+    // TODO
+};

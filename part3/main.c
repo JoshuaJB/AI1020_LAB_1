@@ -40,8 +40,8 @@ int main() {
                     int screen_x = 35 + 15 * x2 * ooz;
                     int screen_y = 16 + 8 * y2 * ooz + bounce_offset;
                     
-                    if(screen_y >= 0 && screen_y < 32 && screen_x >= 0 && screen_x < 100) {
-                        int o = screen_x + 100 * screen_y;
+                    if(screen_y >= 0 && screen_y < 32 && screen_x >= 0 && screen_x < 80) {
+                        int o = screen_x + 80 * screen_y;
                         
                         if(o >= 0 && o < 3200 && ooz > z[o]) {
                             
@@ -71,12 +71,13 @@ int main() {
         }
         
         printf("\x1b[H");
-        for(k = 0; k < 3200; k++) {
-            putchar(k % 100 ? b[k] : 10);
+        for(k = 0; k < 2560; k++) {
+            putchar(k % 80 ? b[k] : 10);
         }
         
         printf("\nCongratulations %s %s! You've completed Lab 1!\n", first_name, last_name);
-        printf("Press control c to exit.\n");
+        printf("Your submission ID is: \"%X\". ", *(int*)first_name);
+        printf("Press Control+C to exit.\n");
         usleep(50000);
         A += 0.04;
         B += 0.02;

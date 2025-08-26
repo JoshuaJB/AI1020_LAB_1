@@ -52,7 +52,7 @@ Welcome to your AI1020 lab! Today you'll learn to navigate the command line and 
 ### Step 5: Open your first file in vim
 - Type: `vim headers.c`
 - Use arrow keys to move around and read the content
-- When you're ready to leave: Type `:q` and press Enter
+- When you're ready to leave: Type Esc (to ensure you're in normal mode) `:q` and press Enter
 
 ### Step 6: Copy the headers to your final program
 - Make sure you're in the part1 folder (type `pwd` to check)
@@ -63,7 +63,9 @@ Welcome to your AI1020 lab! Today you'll learn to navigate the command line and 
   * Type: 'V' to enter Visual Mode (enables selection)
   * Use the arrow keys to move your cursor to the end of the file (selecting everything)
   * Type: 'y' to copy the selected text (short for "yank"---vim's term for copying)
-- Exit this file: Type `:q` and press Enter
+- Exit this file: Type Esc (to ensure you're in normal mode) then `:q` and press Enter
+
+**Accidentally put some text you didn't want to in your file? Add an exclaimation mark after the q to exit without saving; _i.e._, type `:q!`.**
 
 <details>
   <summary>[Click this text for advanced vim shortcuts.]</summary>
@@ -75,7 +77,7 @@ To avoid using the arrow keys after opening the file:
 </details>
 
 ### Step 7: Create your final program file
-- Go back to the main directory: `cd ..`
+- Go back to the main directory: `cd ..` (make sure that your prompt now shows `:~/AI_1020_LAB_1$` rather than `:~/AI_1020_LAB_1/part1`)
 - Create and open your final file: `vim final.c`
 - Paste the headers:
   * Press: `i` (to go into Insert Mode; this lets you edit the file)
@@ -141,7 +143,7 @@ To avoid using the arrow keys after opening the file:
 ### Step 15: Check your progress
 - Type: `vim final.c` and use the arrow keys to move around (try FN+Down or FN+Up to scroll faster)
 - You should now see both headers and pattern data!
-- Exit vim: `:q`
+- Exit vim: Press Esc (to ensure you're in normal mode) then `:q`
 
 ---
 
@@ -196,3 +198,4 @@ We want to make sure everyone is able to complete this lab---you'll need these s
 Using only the shortcuts and tools practiced in this lab, how could you assemble `final.c` in the command line with as little typing as possible (_i.e._, fewer commands, and/or less characters in each command)?
 
 If we have time, we'll call you up and you can show off your alternate solutions to the class!
+If we don't have time, write up a brief explanation of your solution and email it to me---I'll put together an email with your explanations for the class.
